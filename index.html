@@ -13,18 +13,21 @@
 </head>
 <body>
     <header>
+        <!-- brand header logo sony -->
         <section class="my_brand-header text-end">
             <img class="text-end" src="img/sony_logo.svg" alt="">
         </section>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light pb-0">
+        <!-- nav bar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light pb-0">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img src="img/play_logo.svg" alt="">
               </a>
+              <!-- nav bar toggler collapse -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <!-- nav bar dropdown item -->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
@@ -92,9 +95,28 @@
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                       </li>
-
-                
                 </ul>
+                <!-- nav bar right side + button -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle pe-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          My PlayStation
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item">
+                        <button type="button" class="btn btn-secondary rounded-pill">Accedi</button>
+                      </li>
+                      <li class="nav-item">
+                        <i class="fas fa-search fs-5 px-3 pt-2"></i>
+                      </li>
+                </ul>
+
               </div>
             </div>
           </nav>
