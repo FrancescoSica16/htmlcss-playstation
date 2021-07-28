@@ -17,3 +17,8 @@ h1{
 #navbar .nav-link{
     color: black;
 }
+
+#jumbotron{
+    height: calc(100vh - 93.85px);
+    background: no-repeat url(../img/jumbo-bg.png);
+}
