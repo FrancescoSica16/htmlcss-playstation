@@ -1,0 +1,17 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white ;
+}
+
+.my_brand-header{
+    height: 25px;
+    background-color: black;
+}
+.my_brand-header img{
+    height: 90%;
+    vertical-align: top;
+    padding: 5px 5px;
+}
