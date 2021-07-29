@@ -14,11 +14,49 @@ h1{
     padding: 7px 10px;
 }
 
+.btn{
+    border-radius: 25px;
+}
+
+.my_buy-btn{
+    background-color: rgb(215, 61, 15);
+    border-color: rgb(215, 61, 15);
+}
+
+.my_jumbotron{
+    color: white;
+    padding-bottom: 50px;
+    background: no-repeat center url(../img/jumbo-bg.png);
+    background-size: cover ;
+}
+
+.my_jumbo-logo{
+    width: 50%;
+}
+
 #navbar .nav-link{
     color: black;
 }
 
-#jumbotron{
-    height: calc(100vh - 93.85px);
-    background: no-repeat url(../img/jumbo-bg.png);
+#main-jumbo.my_jumbotron{
+    padding-top: 260px;
+    margin-bottom: 30px;
+}
+
+.my_carousel-img{
+    /* background-color: royalblue; */
+    background-size: contain;
+    background-repeat: no-repeat;  
+    border-radius: 15px;  
+    border: 3px solid transparent;
+}
+
+.my_carousel-img:hover{
+    border: 3px solid royalblue;
+}
+
+.my_carousel-img img{
+    width: 100%;
+    padding: 2px;
+    border-radius: 15px;
 }
