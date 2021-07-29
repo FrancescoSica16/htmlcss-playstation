@@ -16,7 +16,6 @@ font-family: Arial, Helvetica, sans-serif;
     height: 25px;
     padding: 7px 10px;
 }
-
 .btn{
     border-radius: 25px;
 }
@@ -53,6 +52,17 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
 }
 
+.my_item-console{
+    opacity: 0.7;
+    border: 3px solid transparent;
+    margin-bottom: 40px;
+    
+}
+
+.my_item-console:hover{
+    opacity: 1;
+    border-bottom: 3px solid royalblue;
+}
 #navbar .nav-link{
     color: black;
 }
@@ -62,7 +72,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 }
 
-#my_carousel{
+#carousel{
     margin-bottom: 80px;
 }
 
@@ -71,14 +81,10 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 0.95em;
     font-weight: bold;
 }
+
 #item-selected img{
     width: 100%;
     background-size: contain;
 }
 
-/* #item-selected .item-caption{
-    padding-top: 150px;
-} */
 
-.my_container-item .col-{
-}
