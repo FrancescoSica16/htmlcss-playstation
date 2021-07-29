@@ -2,8 +2,11 @@
 font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: white ;
+.my_caption-gray{
+    color:grey;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 20px;
 }
 
 .my_brand-header{
@@ -29,22 +32,11 @@ h1{
     background: no-repeat center url(../img/jumbo-bg.png);
     background-size: cover ;
 }
-
 .my_jumbo-logo{
     width: 50%;
 }
 
-#navbar .nav-link{
-    color: black;
-}
-
-#main-jumbo.my_jumbotron{
-    padding-top: 260px;
-    margin-bottom: 30px;
-}
-
 .my_carousel-img{
-    /* background-color: royalblue; */
     background-size: contain;
     background-repeat: no-repeat;  
     border-radius: 15px;  
@@ -55,8 +47,38 @@ h1{
     border: 3px solid royalblue;
 }
 
-.my_carousel-img img{
+.my_carousel-img>img{
     width: 100%;
     padding: 2px;
     border-radius: 15px;
+}
+
+#navbar .nav-link{
+    color: black;
+}
+
+#main-jumbo.my_jumbotron{
+    padding-top: 220px;
+    margin-bottom: 30px;
+}
+
+#my_carousel{
+    margin-bottom: 80px;
+}
+
+#console-head span{
+    color: royalblue;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+#item-selected img{
+    width: 100%;
+    background-size: contain;
+}
+
+/* #item-selected .item-caption{
+    padding-top: 150px;
+} */
+
+.my_container-item .col-{
 }
