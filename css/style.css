@@ -54,8 +54,11 @@ font-family: Arial, Helvetica, sans-serif;
 .my_item-console{
     opacity: 0.7;
     border: 3px solid transparent;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;   
+}
+
+.my_ps4-item{
+    width: 100%;
 }
 
 .my_item-console:hover{
@@ -95,6 +98,7 @@ font-family: Arial, Helvetica, sans-serif;
 #incoming{
     background-color: rgb(31, 31, 31);
     color: white;
+    margin-bottom: 60px ;
 }
 
 #incoming .my_incoming-item{
