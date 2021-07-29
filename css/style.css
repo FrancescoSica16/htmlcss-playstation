@@ -89,6 +89,15 @@ font-family: Arial, Helvetica, sans-serif;
 
 #center-jumbo.my_jumbotron{
     padding-top: 30px;
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background: center url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+#incoming{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+#incoming .my_incoming-item{
+    width: 100%;
+    border-radius: 20px;
+}
