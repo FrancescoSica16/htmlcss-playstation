@@ -88,6 +88,10 @@ font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
 }
 
+.my_social-logo{
+    width: 100%;
+}
+
 .my_sale-item{
     width: 100%;
 }
