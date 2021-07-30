@@ -25,6 +25,14 @@ font-family: Arial, Helvetica, sans-serif;
     border-color: rgb(215, 61, 15);
 }
 
+.my_explore-btn{
+    border: none;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
 .my_jumbotron{
     color: white;
     padding-bottom: 50px;
@@ -64,6 +72,24 @@ font-family: Arial, Helvetica, sans-serif;
 .my_item-console:hover{
     opacity: 1;
     border-bottom: 3px solid royalblue;
+}
+
+.split-jumbo{
+    margin: 70px 0;
+}
+
+.split-jumbo .my_jumbo-logo{
+    padding-top:30px ;
+    width: 60%;
+}   
+
+.split-jumbo img{
+    width: 100%;
+    background-size: cover;
+}
+
+.my_sale-item{
+    width: 100%;
 }
 #navbar .nav-link{
     color: black;
@@ -106,17 +132,12 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
 }
 
-#split-jumbo{
-    margin-top: 70px;
+#ps-plus-jumbo{  
     background-color: rgb(190, 188, 187);
 }
 
-#split-jumbo .my_jumbo-logo{
-    padding-top:30px ;
-    width: 60%;
-}   
-
-#split-jumbo img{
-    width: 100%;
-    background-size: cover;
+#ps-now-jumbo{
+    color: white;
+    background-color: rgb( 22, 28, 59);
 }
+
