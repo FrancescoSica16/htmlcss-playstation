@@ -112,11 +112,14 @@ footer a{
     color: black;
 }
 
-#head-jumbo.my_jumbotron{
-    padding-top: 250px;
+#head-jumbo{
+    padding-top: 290px;
     margin-bottom: 30px;
-    background: no-repeat center url(../img/jumbo-bg.png);
+    background-image:  url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
 }
+
 
 #carousel{
     margin-bottom: 80px;
@@ -156,5 +159,4 @@ footer a{
 #ps-now-jumbo{
     color: white;
     background-color: rgb( 22, 28, 59);
-}
-
+} 
